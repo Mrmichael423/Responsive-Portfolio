@@ -226,7 +226,10 @@ input[type=submit] {
     padding-right: 30px;
   }
 
-  
+  nav a {
+    margin-right: 20px;
+    margin-left: 0px
+  }
 
 }
 
@@ -246,7 +249,7 @@ input[type=submit] {
     
 
   }
-    #content-form ul {
+    ul {
         padding-inline-start: 0px;
       }
   

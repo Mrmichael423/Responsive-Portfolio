@@ -225,19 +225,48 @@ input[type=submit] {
     max-width: 70%;
     padding-right: 30px;
   }
+
 }
 
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 769px) {
   #masthead {
-    max-width: 98%;
+    max-width: 100%;
   }
 
   .main-section {
     max-width: 100%;
     padding: 0 20px;
   }
+
+  nav a {
+    padding-right: 15PX;
+    padding-left: 0;
+    
+
+  }
   .work img {
-    text-align: center;
+    /* need to even out the images with the main section so they are evenly desplayed but dont know how */
   }
 }
 
+
+@media screen and (max-width: 641px) {
+  nav {
+    float: none;
+    background: #ffffff;
+    padding: 15px;
+
+  }
+
+  #logo {
+    float: none
+  }
+  .container {
+    text-align: center;
+    background: #4aaaa5
+  }
+
+  .main-section {
+    margin-top: 100px;
+  }
+}

@@ -244,9 +244,10 @@ input[type=submit] {
     
 
   }
-  .work img {
-    /* need to even out the images with the main section so they are evenly desplayed but dont know how */
-  }
+    #content-form ul {
+        padding-inline-start: 0px;
+      }
+  
 }
 
 
@@ -268,5 +269,12 @@ input[type=submit] {
 
   .main-section {
     margin-top: 100px;
+  }
+  #contact-form ul {
+    padding-inline-start: 0px;
+  }
+
+  input[type=submit] {
+    float: left
   }
 }

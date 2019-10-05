@@ -116,6 +116,9 @@ nav a {
   color: #eeeeee;
   text-decoration: none;
 }
+nav a:hover {
+  color: #bbbbbb;
+}
 
 /* footer */
 footer {

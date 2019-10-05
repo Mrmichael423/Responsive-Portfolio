@@ -1,66 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio | Your Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+  <body>
+    <header id="masthead">
+      <div class="container">
+        <a href="index.html" id="logo">Kevin Halstead</a>
+      </div>
+      <div>
+        <div id="menu">
+          <div class="bm-burger-button">
+            <span
+              ><span
+                class="bm-burger-bars"
+                style="position: absolute; height: 20%; left: 0px; right: 0px; top: 0%; opacity: 1;"
+              ></span
+              ><span
+                class="bm-burger-bars"
+                style="position: absolute; height: 20%; left: 0px; right: 0px; top: 40%; opacity: 1;"
+              ></span
+              ><span
+                class="bm-burger-bars"
+                style="position: absolute; height: 20%; left: 0px; right: 0px; top: 80%; opacity: 1;"
+              ></span></span
+            ><button
+              style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; cursor: pointer;"
+            >
+              Open Menu
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <p><a href="index.html">About</a></p>
+      <p><a href="portfolio.html">Portfolio</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </nav>
 
-<body>
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>Portfolio</h1>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Kevin Halstead</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+        <div class="work">
+          <img src="assets/images/wordgame.png" alt="Word Guess" />
+
+          <a href="https://mrmichael423.github.io/Psychic-Game/">
+            <h3>The Psychic-Game</h3>
+          </a>
+        </div>
+        <div class="work">
+          <img src="assets/images/crystalGame.png" alt="Crystal Game" />
+          <a href="https://mrmichael423.github.io/unit-4-game/">
+            <h3>Crystal Game</h3>
+          </a>
+        </div>
+        <div class="work">
+          <img src="assets/images/batman.png" alt="Trivia Game" />
+          <a href="https://mrmichael423.github.io/TriviaGame/">
+            <h3>Trivia Game</h3>
+          </a>
+        </div>
+        <div class="work">
+          <img src="assets/images/trainScheduler.png" alt="Train Scheduler" />
+          <a href="https://mrmichael423.github.io/train-scheduler/">
+            <h3>Train Scheduler</h3>
+          </a>
+        </div>
+        <div class="work">
+          <img src="assets/images/codeSwitcher.png" alt="The code Switcher" />
+          <a href="https://mrmichael423.github.io/project1/">
+            <h3>The Code Switcher</h3>
+          </a>
+        </div>
+      </section>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <a href="https://mrmichael423.github.io/Psychic-Game/">  
-          <h3>Word Guess</h3> </a>
+    <footer>
+      <div class="container">
+        Copyright &copy;
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="Crystal Game">
-        <a href="https://mrmichael423.github.io/unit-4-game/" >
-        <h3>Crystal Game</h3> </a>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-        <a href="https://mrmichael423.github.io/TriviaGame/" >
-        <h3>Trivia Game</h3> </a>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Train Scheduler">
-        <a href="https://mrmichael423.github.io/train-scheduler/">
-        <h3>Train Scheduler</h3> </a>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="The code Switcher">
-        <a href="https://mrmichael423.github.io/project1/">
-        <h3>The Code Switcher</h3> </a>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
-</body>
-
+    </footer>
+    <script src="assets/javascript/app.js"></script>
+  </body>
 </html>

@@ -97,7 +97,7 @@ h3 {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -22vw;
   background: darkred;

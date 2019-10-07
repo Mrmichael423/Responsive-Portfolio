@@ -241,10 +241,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  container {
-    max-width: 99%;
-  }
-
   .main-section {
     max-width: 70%;
     padding-right: 30px;
@@ -277,17 +273,12 @@ input[type=submit] {
 @media screen and (max-width: 641px) {
   nav {
     float: none;
-    background: #ffffff;
+    background: darkred;
     padding: 15px;
   }
 
   #logo {
     float: none;
-  }
-
-  .container {
-    text-align: center;
-    background: darkred;
   }
 
   .main-section {
